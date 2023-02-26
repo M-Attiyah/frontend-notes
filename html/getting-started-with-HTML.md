@@ -46,8 +46,8 @@ Elements can be placed within other elements. This is called nesting.
 
 ---
 
-## Void elements
-Not all elements follow the pattern of an opening tag, content, and a closing tag. Some elements consist of a single tag, which is typically used to insert/embed something in the document. 
+## Void element
+is consist of a single tag, which is typically used to insert/embed something in the document. 
 
 ---
 
@@ -61,8 +61,7 @@ An attribute should have:
 3. An attribute value, wrapped with opening and closing quote marks.
 
 ## Boolean attributes
-Boolean attribute is an attribute without values.
-Boolean attributes can only have one value, which is generally the same as the attribute name.
+Boolean attribute is an attribute without values. it can only have one value, which is generally the same as the attribute name.
 
 `<input type="text" disabled="disabled" />`, This is the full one
 
@@ -85,9 +84,9 @@ Boolean attributes can only have one value, which is generally the same as the a
 </html>
 ```
 
-1. **`<!DOCTYPE html>`:** this used to tell the browser about the version of HTML we use to write a code.
-2. **<html>:** this element wraps all the content on the page, it is sometimes known as the root element.
-3. **<head>:** this element is a container for everything you want to include on the HTML page such as, keywords, page description, css to style content, character set declaration.
+1. **`<!DOCTYPE html>`:** this tell the browser about the version of HTML we use to write a code.
+2. **`<html>`:** this element wraps all the content on the page, it is sometimes known as the root element.
+3. **`<head>`:** this element is a container for everything you want to include on the HTML page such as, keywords, page description, linking resources, character set declaration.
 4. **`<meta charset="utf-8">`:** The `meta` is represent the metadata, and the `charset` attribute sets the character set for your document to UTF-8, which includes most characters that used by human languages.
 5. **`<title>`:** this sets the title of the page.
 6. **`<body>`:** this element contains all the content that displays on the page, including text, images, videos, or whatever else.
