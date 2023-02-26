@@ -84,12 +84,52 @@ Boolean attribute is an attribute without values. it can only have one value, wh
 </html>
 ```
 
-1. **`<!DOCTYPE html>`:** this tell the browser about the version of HTML we use to write a code.
-2. **`<html>`:** this element wraps all the content on the page, it is sometimes known as the root element.
-3. **`<head>`:** this element is a container for everything you want to include on the HTML page such as, keywords, page description, linking resources, character set declaration.
-4. **`<meta charset="utf-8">`:** The `meta` is represent the metadata, and the `charset` attribute sets the character set for your document to UTF-8, which includes most characters that used by human languages.
-5. **`<title>`:** this sets the title of the page.
-6. **`<body>`:** this element contains all the content that displays on the page, including text, images, videos, or whatever else.
+**`<!DOCTYPE html>`:** *this tell the browser about the version of HTML we use to write a code*.
+1. **Quirks mode**:  this mode is exists to support the websites that came before W3 standards
+2. **Full standards mode:** this mode is used the HTML and CSS specification to render your webpage well
+3. **Almost standards mode:** this mode is the same as `full standard mode` but it has a small numbers of quirks
+
+**`<html>`:** this element wraps all the content on the page, it is sometimes known as the root element.
+
+**`lang="en"`**, this attribute specify the main language of the webpage
+
+**`<head>`:** this element is a container for everything you want to include on the HTML page such as, keywords, page description, linking resources, character set declaration.
+
+**`<title>`:** this sets the title of the page.
+
+**`<body>`:** this element contains all the content that displays on the page, including text, images, videos, or whatever else.
+
+---
+
+## Meta
+
+The meta represent the metadata
+
+**charset="UTF-8":** this attribute sets the characters set of your document to `UTF-8`, which includes most characters that used by human languages
+
+`<meta charset="UTF-8" />`
+
+**description:** this adds a description of your webpage
+
+`<meta name="description" content="this is the purpos of my website" />`
+
+**author:** this adds an autor of the website
+
+`<meta name="author" content="kevin jonson" />`
+
+**viewport:** this used to setting a viewport to your website to make it looks good in all devices 
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+---
+
+## Linking Resources
+
+it used to link external stylesheets and scripts files to the document
+
+`<link href="style.css" rel="stylesheet" />`, this links our stylesheet file
+
+`<script src="app.js">`, this links our script file
 
 ---
 
